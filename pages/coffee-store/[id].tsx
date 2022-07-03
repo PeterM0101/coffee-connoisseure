@@ -110,6 +110,7 @@ const CoffeeStore: FC<CoffeeStoreProps> = ({ coffeeStore }) => {
       <ToastContainer />
       <Head>
         <title>{store?.name}</title>
+        <meta name="description" content={`${store?.name} coffee store`} />
       </Head>
       <div className={styles.container}>
         <div className={styles.col1}>

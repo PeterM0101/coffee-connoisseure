@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com", "fastly.4sqi.net"],
   },
+  target: "serverless",
 };
 
 module.exports = nextConfig;
